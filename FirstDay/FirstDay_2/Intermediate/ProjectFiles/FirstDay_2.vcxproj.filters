@@ -1,46 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\FirstDay_2.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{BAEF537B-4DC2-4C65-B49F-00E86FC68482}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\FirstDay_2.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\FirstDay_2Editor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{F4EE7C58-5654-45E7-8DE8-D13B822DAE74}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\FirstDay_2">
-			<UniqueIdentifier>{4017B706-56CA-407B-9AE8-040310E1E506}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\FirstDay_2\FirstDay_2.Build.cs">
-			<Filter>Source\FirstDay_2</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\FirstDay_2\FirstDay_2.cpp">
-			<Filter>Source\FirstDay_2</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FirstDay_2\FirstDay_2.h">
-			<Filter>Source\FirstDay_2</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\FirstDay_2\FirstDay_2GameModeBase.cpp">
-			<Filter>Source\FirstDay_2</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FirstDay_2\FirstDay_2GameModeBase.h">
-			<Filter>Source\FirstDay_2</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\FirstDay_2.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{E3FAC30B-2550-4CFC-BCC9-2D4F29623242}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FirstDay_2.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FirstDay_2Editor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{3AE9102F-EF5C-457E-850F-5C6025368491}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FirstDay_2">
+      <UniqueIdentifier>{73872741-51C4-4FF4-AE3C-05C5EC53B2A5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FirstDay_2\FirstDay_2.Build.cs">
+      <Filter>Source\FirstDay_2</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FirstDay_2\FirstDay_2.cpp">
+      <Filter>Source\FirstDay_2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstDay_2\FirstDay_2.h">
+      <Filter>Source\FirstDay_2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FirstDay_2\FirstDay_2GameModeBase.cpp">
+      <Filter>Source\FirstDay_2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstDay_2\FirstDay_2GameModeBase.h">
+      <Filter>Source\FirstDay_2</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FirstDay_2\MyPawn.cpp">
+      <Filter>Source\FirstDay_2</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstDay_2\MyPawn.h">
+      <Filter>Source\FirstDay_2</Filter>
+    </ClInclude>
+    <None Include="cpp.hint" />
+  </ItemGroup>
 </Project>

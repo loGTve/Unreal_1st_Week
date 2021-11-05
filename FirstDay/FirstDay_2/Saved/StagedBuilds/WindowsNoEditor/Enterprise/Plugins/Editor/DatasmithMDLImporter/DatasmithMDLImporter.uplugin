@@ -1,0 +1,40 @@
+{
+	"FileVersion" : 3,
+	"Version" : 1,
+	"VersionName" : "1.0",
+	"FriendlyName" : "Datasmith MDL/AXF Importer",
+	"Description" : "Adds support for importing MDL/AXF materials into Unreal Engine",
+	"Category" : "Unreal Studio",
+	"CreatedBy" : "Epic Games, Inc.",
+	"CreatedByURL" : "http://epicgames.com",
+	"DocsURL" : "",
+	"MarketplaceURL" : "",
+	"SupportURL" : "",
+	"EnabledByDefault" : true,
+	"CanContainContent" : true,
+	"IsBetaVersion" : true,
+	"Installed" : false,
+	"SupportedTargetPlatforms":
+	[
+		"Win64"
+	],
+	"Modules" :
+	[
+		{
+			"Name" : "DatasmithMDLImporter",
+			"Type" : "Editor",
+			"LoadingPhase" : "Default",
+			"WhitelistPlatforms" :
+			[
+				"Win64"
+			]
+		}
+	],
+	"Plugins":
+	[
+		{
+			"Name": "DatasmithImporter",
+			"Enabled": true
+		}
+	]
+}

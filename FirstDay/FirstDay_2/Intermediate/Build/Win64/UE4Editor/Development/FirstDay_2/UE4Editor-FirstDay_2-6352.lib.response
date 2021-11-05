@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FirstDay_2-6352.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\UnrealGithub\Week-1\Unreal_1st_Week\FirstDay\FirstDay_2\Intermediate\Build\Win64\FirstDay_2Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\UnrealGithub\Week-1\Unreal_1st_Week\FirstDay\FirstDay_2\Intermediate\Build\Win64\UE4Editor\Development\FirstDay_2\FirstDay_2.cpp.obj"
+"E:\UnrealGithub\Week-1\Unreal_1st_Week\FirstDay\FirstDay_2\Intermediate\Build\Win64\UE4Editor\Development\FirstDay_2\FirstDay_2GameModeBase.cpp.obj"
+"E:\UnrealGithub\Week-1\Unreal_1st_Week\FirstDay\FirstDay_2\Intermediate\Build\Win64\UE4Editor\Development\FirstDay_2\MyPawn.cpp.obj"
+"E:\UnrealGithub\Week-1\Unreal_1st_Week\FirstDay\FirstDay_2\Intermediate\Build\Win64\UE4Editor\Development\FirstDay_2\FirstDay_2.init.gen.cpp.obj"
+"E:\UnrealGithub\Week-1\Unreal_1st_Week\FirstDay\FirstDay_2\Intermediate\Build\Win64\UE4Editor\Development\FirstDay_2\FirstDay_2GameModeBase.gen.cpp.obj"
+"E:\UnrealGithub\Week-1\Unreal_1st_Week\FirstDay\FirstDay_2\Intermediate\Build\Win64\UE4Editor\Development\FirstDay_2\MyPawn.gen.cpp.obj"
+"E:\UnrealGithub\Week-1\Unreal_1st_Week\FirstDay\FirstDay_2\Intermediate\Build\Win64\UE4Editor\Development\FirstDay_2\PCLaunch.rc.res"
+/OUT:"E:\UnrealGithub\Week-1\Unreal_1st_Week\FirstDay\FirstDay_2\Intermediate\Build\Win64\UE4Editor\Development\FirstDay_2\UE4Editor-FirstDay_2-6352.lib"
