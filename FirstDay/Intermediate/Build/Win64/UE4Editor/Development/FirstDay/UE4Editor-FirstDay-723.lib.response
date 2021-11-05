@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FirstDay-723.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\UnrealGithub\Week-1\Unreal_1st_Week\FirstDay\Intermediate\Build\Win64\FirstDayEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"E:\UnrealGithub\Week-1\Unreal_1st_Week\FirstDay\Intermediate\Build\Win64\UE4Editor\Development\FirstDay\CameraDirector.cpp.obj"
+"E:\UnrealGithub\Week-1\Unreal_1st_Week\FirstDay\Intermediate\Build\Win64\UE4Editor\Development\FirstDay\FirstDay.cpp.obj"
+"E:\UnrealGithub\Week-1\Unreal_1st_Week\FirstDay\Intermediate\Build\Win64\UE4Editor\Development\FirstDay\FirstDayGameModeBase.cpp.obj"
+"E:\UnrealGithub\Week-1\Unreal_1st_Week\FirstDay\Intermediate\Build\Win64\UE4Editor\Development\FirstDay\CameraDirector.gen.cpp.obj"
+"E:\UnrealGithub\Week-1\Unreal_1st_Week\FirstDay\Intermediate\Build\Win64\UE4Editor\Development\FirstDay\FirstDay.init.gen.cpp.obj"
+"E:\UnrealGithub\Week-1\Unreal_1st_Week\FirstDay\Intermediate\Build\Win64\UE4Editor\Development\FirstDay\FirstDayGameModeBase.gen.cpp.obj"
+"E:\UnrealGithub\Week-1\Unreal_1st_Week\FirstDay\Intermediate\Build\Win64\UE4Editor\Development\FirstDay\PCLaunch.rc.res"
+/OUT:"E:\UnrealGithub\Week-1\Unreal_1st_Week\FirstDay\Intermediate\Build\Win64\UE4Editor\Development\FirstDay\UE4Editor-FirstDay-723.lib"

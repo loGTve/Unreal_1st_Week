@@ -1,46 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\FirstDay.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{05E95677-B1D9-43E6-BD91-68108F3D49CB}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\FirstDay.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\FirstDayEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{AC33EBB2-0FAF-40A7-A094-E0858FB9D3F7}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\FirstDay">
-			<UniqueIdentifier>{56B44FED-F8A4-4DEA-BE17-AFB669EDDEE6}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\FirstDay\FirstDay.Build.cs">
-			<Filter>Source\FirstDay</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\FirstDay\FirstDay.cpp">
-			<Filter>Source\FirstDay</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FirstDay\FirstDay.h">
-			<Filter>Source\FirstDay</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\FirstDay\FirstDayGameModeBase.cpp">
-			<Filter>Source\FirstDay</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FirstDay\FirstDayGameModeBase.h">
-			<Filter>Source\FirstDay</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\FirstDay.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{05E95677-B1D9-43E6-BD91-68108F3D49CB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FirstDay.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FirstDayEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{AC33EBB2-0FAF-40A7-A094-E0858FB9D3F7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FirstDay">
+      <UniqueIdentifier>{56B44FED-F8A4-4DEA-BE17-AFB669EDDEE6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FirstDay\FirstDay.Build.cs">
+      <Filter>Source\FirstDay</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FirstDay\FirstDay.cpp">
+      <Filter>Source\FirstDay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstDay\FirstDay.h">
+      <Filter>Source\FirstDay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FirstDay\FirstDayGameModeBase.cpp">
+      <Filter>Source\FirstDay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FirstDay\FirstDayGameModeBase.h">
+      <Filter>Source\FirstDay</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\FirstDay\CameraDirector.h">
+      <Filter>Source\FirstDay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FirstDay\MovingActor.h">
+      <Filter>Source\FirstDay</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\FirstDay\CameraDirector.cpp">
+      <Filter>Source\FirstDay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FirstDay\MovingActor.cpp">
+      <Filter>Source\FirstDay</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
